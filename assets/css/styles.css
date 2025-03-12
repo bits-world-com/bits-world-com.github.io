@@ -1,0 +1,65 @@
+/* Color system https://coolors.co/5c95ff-191f24-b02e0c-fc9e4f-ffffff */
+
+/* CSS HEX */
+/* --cornflower-blue: #5c95ffff;
+--white: #ffffffff;
+--rufous: #b02e0cff;
+--eerie-black: #191f24ff;
+--sandy-brown: #fc9e4fff; */
+
+/* CSS HSL */
+/* --cornflower-blue: hsla(219, 100%, 68%, 1);
+--white: hsla(0, 0%, 100%, 1);
+--rufous: hsla(12, 87%, 37%, 1);
+--eerie-black: hsla(207, 18%, 12%, 1);
+--sandy-brown: hsla(27, 97%, 65%, 1); */
+
+/* SCSS HEX */
+/* $cornflower-blue: #5c95ffff;
+$white: #ffffffff;
+$rufous: #b02e0cff;
+$eerie-black: #191f24ff;
+$sandy-brown: #fc9e4fff; */
+
+/* SCSS HSL */
+/* $cornflower-blue: hsla(219, 100%, 68%, 1);
+$white: hsla(0, 0%, 100%, 1);
+$rufous: hsla(12, 87%, 37%, 1);
+$eerie-black: hsla(207, 18%, 12%, 1);
+$sandy-brown: hsla(27, 97%, 65%, 1); */
+
+/* SCSS RGB */
+/* $cornflower-blue: rgba(92, 149, 255, 1);
+$white: rgba(255, 255, 255, 1);
+$rufous: rgba(176, 46, 12, 1);
+$eerie-black: rgba(25, 31, 36, 1);
+$sandy-brown: rgba(252, 158, 79, 1); */
+
+/* SCSS Gradient */
+/* $gradient-top: linear-gradient(0deg, #5c95ffff, #ffffffff, #b02e0cff, #191f24ff, #fc9e4fff);
+$gradient-right: linear-gradient(90deg, #5c95ffff, #ffffffff, #b02e0cff, #191f24ff, #fc9e4fff);
+$gradient-bottom: linear-gradient(180deg, #5c95ffff, #ffffffff, #b02e0cff, #191f24ff, #fc9e4fff);
+$gradient-left: linear-gradient(270deg, #5c95ffff, #ffffffff, #b02e0cff, #191f24ff, #fc9e4fff);
+$gradient-top-right: linear-gradient(45deg, #5c95ffff, #ffffffff, #b02e0cff, #191f24ff, #fc9e4fff);
+$gradient-bottom-right: linear-gradient(135deg, #5c95ffff, #ffffffff, #b02e0cff, #191f24ff, #fc9e4fff);
+$gradient-top-left: linear-gradient(225deg, #5c95ffff, #ffffffff, #b02e0cff, #191f24ff, #fc9e4fff);
+$gradient-bottom-left: linear-gradient(315deg, #5c95ffff, #ffffffff, #b02e0cff, #191f24ff, #fc9e4fff);
+$gradient-radial: radial-gradient(#5c95ffff, #ffffffff, #b02e0cff, #191f24ff, #fc9e4fff); */
+
+/* CSS Variables */
+:root {
+    --cornflower-blue: #5c95ff;
+    --white: #ffffff;
+    --rufous: #b02e0c;
+    --eerie-black: #191f24;
+    --sandy-brown: #fc9e4f;
+}
+
+body {
+    background-color: var(--cornflower-blue);
+    color: var(--white);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
